@@ -1,0 +1,206 @@
+<html>
+
+<head>
+    <title>YUM YUM</title>
+    <!-- style.css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation bar-->
+    <div class="navbar">
+        <ul>
+            <li>
+                <a href="#">HOME</a>
+            </li>
+            <li>
+                <a href="#about__section">ABOUT</a>
+            </li>
+            <li>
+                <a href="#snapshots__section">SNAPSHOTS</a>
+            </li>
+
+            <li>
+                <a href="#contact__section">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- img section-->
+    <div id="img__section" class="img__section">
+        <div class="img__text">
+            <h1> FOOD BLOG-'YUM YUM'</h1>
+            <p>the best food blog,the best food factor</p>
+            <a href="#recipie__section" class="btn__dark
+                margin__top">RECIPIES</a>
+            <div id="recipie__section" class="" recipie__section"></div>
+        </div>
+    </div>
+
+
+    <!--about section-->
+    <div id="about__section" class="about__section">
+        <div style="display: flex;align-items: center;  justify-content: center;">
+            <p style="font-size: 32px;font-weight: bold;">ABOUT</p>
+        </div>
+        <p style="font-size: 24px">FOOD IS OUR COMMOM GROUND, A UNIVERSAL EXPERIENCE
+            - JAMES BEARD
+            One way food blogging is different from other types of blogging is humankind's innate response to food. We
+            LOVE
+            food!But once you've enticed your readers with your beautiful photographs, how do you keep their interest
+            and
+            keep them from running off to the next decadent delight?That's where the hook comes in YUM YUM
+            WE love books.WE love food. Ever since I was a little kid I have had this immense passion for cooking.I
+            thought
+            to myself why not share with the rest of the world wholesome healthy foods and ways to be happy and healthy
+            that
+            will keep even the most snobby foodie asking for more. So here you will be able to find loads of fun
+            including
+            healthy recipes to tantalize your taste buds or treat your family.</p>
+    </div>
+
+    <!-- recipie section-->
+    <div style="display:flex;align-items: center;  justify-content: center;">
+        <p style="font-size: 32px;font-weight: bold;">RECIPIES</p>
+    </div>
+    <div style="display:flex;align-items: center;  justify-content: center;">
+        <p>Click on the picture for recipe.</p>
+    </div>
+    <div id="recipie__section" class="recipie__section">
+        <span onclick="showItem('chole')"><img src="r1.jpeg" widhth="150px" height="500"></span>
+        <span onclick="showItem('biryani')"><img src="r2.jpeg" widhth="100px" height="500"></span>
+        <span onclick="showItem('noodles')"><img src="r3.jpeg" widhth="100px" height="500"></span>
+        <span onclick="showItem('tikka')"><img src="r4.jpeg" widhth="100px" height="500"></span>
+    </div>
+
+    <!--all recipies-->
+    <div id="chole" class="item_recipe" style="display:none">
+        <p style="font-size: 24px">Chole Bhautre</p>
+        <p style="font-style: bold">For the chole</p>
+        <div style="padding:10px">
+            Combine the kabuli chana, salt, tea leaf tied in muslin cloth and enough water in a pressure cooker and
+            pressure cook for 3 whistles.<br />
+            Allow the steam to escape before opening the lid. Remove the tea powder tied in muslin cloth and drain the
+            kabuli chana. Keep aside..<br />
+            Heat the oil in a deep non-stick pan and add the cumin seeds. Sauté on a medium flame for 30 seconds.
+            Add the onions, ginger and garlic and sauté on a medium flame for 1 to 2 minute or till the onions turn
+            translucent..<br />
+            Add the chole masala, chilli powder, dried mango powder, turmeric powder, coriander powder, cumin seeds
+            powder, salt and 1 cup of water, mix well and cook on a medium flame for 1 to 2 minutes, while stirring
+            occasionally..<br />
+            Add the kabuli chana, mix well and cook on a medium flame for 5 to 7 minutes, while stirring
+            occasionally..<br />
+            Mash the kabuli chana once lightly with a help of a masher. Switch off the flame, keep aside
+        </div>
+        <p style="font-style: bold">For the bhature</p>
+        <div style="padding:10px">
+            Combine the flour, potatoes, curd, oil and salt and knead to make a soft dough using enough water.<br />
+            Cover the dough with a wet muslin cloth and rest the dough for 20 minutes.<br />
+            Divide the dough into 8 equal portions and roll each portion into a 150 mm. (6”) diameter circle using a
+            little plain flour for rolling.<br />
+            Heat the oil in a deep non-stick pan and deep-fry the bhatures, one at a time, till they turn golden
+            brown in colour from both sides.<br />
+        </div>
+        <p style="font-style: bold">How to proceed to serve chole bhature</p>
+        <div style="padding:10px">
+            Serve hot bhatures immediately with the chole, sliced onion and lemon wedges.
+        </div>
+    </div>
+
+    <div id="biryani" class="item_recipe" style="display:none">
+        <p style="font-size: 24px">Chicken Biryani</p>
+        <div style="padding:10px">
+            Mix tomato puree, yogurt, ginger garlic paste, green chilli paste, red chilli powder, turmeric powder,
+            roasted cumin powder, garam masala, coriander powder and salt. Stir well.<br />
+            Marinate the chicken with this mixture and keep aside for 3-4 hours.<br />
+            Heat oil in a pan. Fry the onions until golden brown.<br />
+            Add the marinated chicken and cook for 10 minutes.<br />
+            Add 4 cups of water to the rice. Mix saffron in milk and add to it.<br />
+            Add cardamom powder. Add the chicken pieces.<br />
+            Pressure cook the rice. Mix gently.<br />
+            Garnish with green coriander leaves and serve hot<br />
+        </div>
+    </div>
+
+    <div id="noodles" class="item_recipe" style="display:none">
+        <p style="font-size: 24px">Noodles</p>
+        <div style="padding:10px">
+            Boil the noodles.<br />
+            Microwave the veggies & add seasoning, sauces.<br />
+            Heat oil in a pan. Fry the onions until golden brown.<br />
+            Add the noodles & microwave again.<br />
+        </div>
+    </div>
+
+
+    <div id="tikka" class="item_recipe" style="display:none">
+        <p style="font-size: 24px">Paneer Tikka</p>
+        <p style="font-style: bold">Marination for paneer tikka</p>
+        <div style="padding:10px">
+            Dry roast and pound cumin seeds, coriander seeds, brown cardamom, green cardamom, cloves, black pepper, star
+            anise and shahee zeera in a mortar and pestle.<br />
+            In a bowl add ginger garlic paste, turmeric powder, red chilli powder, coriander powder, salt, kashmiri
+            chilli powder, refined oil, coriander leaves chopped, mint leaves chopped, lime, dry mango powder, chaat
+            masala, green chilli, whisked curd and hara masala. Mix them all
+        </div>
+        <p style="font-style: bold">For grilling paneer tikka</p>
+        <div style="padding:10px">
+            In a tray spread some paneer cubes, julienne onion, capsicum and tomatoes.<br />
+            Mix the masala in the tray. Marinate the paneer cubes.<br />
+            Skewer the tikkas for roasting.<br />
+            Now keep the marinated paneer tikkas in the fridge for 45 minutes.<br />
+            Then grill the tikkas till cooked.<br />
+            Serve the paneer tikka hot.<br />
+        </div>
+
+    </div>
+    <!--all recipies end-->
+
+    <!--snapshots section-->
+
+    <div id="snapshots__section" class="snapshots__section">
+        <h1>Snapshots from "the weekend outings"</h1>
+        <p>Some snapshots may appear differently on your device depending on screen size.</p>
+        <img src="s1.jpeg" widhth="200" height="300">
+        <img src="s2.jpeg" widhth="200" height="300">
+        <img src="s3.jpeg" widhth="200" height="300">
+        <img src="s4.jpeg" widhth="200" height="300">
+        <img src="s5.jpeg" widhth="200" height="300">
+        <img src="s6.jpeg" widhth="200" height="300">
+        <img src="s7.jpeg" widhth="200" height="300">
+
+    </div>
+
+
+    <!--contact section-->
+
+
+
+    <div id="contact__section" class="contact__section">
+        <h1>Contact Us</h1>
+        <p>We are bunch of tech enthusiast striving to build somethign spectacular.</p>
+        <p>You can reach out to us from below.</p>
+    </div>
+    <div class="row" style="display: flex; justify-content: center;">
+        <div class="column">
+            <div class="card" style="display: flex; justify-content: center;">
+                <img src="PR.jpeg" alt="Mike" style="width:80px;height: 80px;">
+                <div class="container">
+                    <h2>Tanushree</h2>
+                    <p class="title">Lead Devloper</p>
+                    <p>Always available for a quick chat.</p>
+                    <p>tanu.nik23@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        
+        </div>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
